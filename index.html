@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <title>Raspored snimanja filma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Raspored snimanja filma – "Projekcija"</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">Dan</th>
+        <th colspan="2">Vrijeme</th>
+        <th>Scena</th>
+        <th>Lokacija</th>
+        <th>Glumci</th>
+        <th>Napomena</th>
+      </tr>
+      <tr>
+        <th>Početak</th>
+        <th>Kraj</th>
+        <th colspan="4">Detalji snimanja</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="dnevna eksterijer">
+        <td>Ponedjeljak</td>
+        <td>08:00</td>
+        <td>11:00</td>
+        <td>Scena 3 – Susret u parku</td>
+        <td>Centar grada</td>
+        <td>Iva, Marko</td>
+        <td>Prirodno svjetlo, stabilizator</td>
+      </tr>
+      <tr class="interijer dnevna">
+        <td>Ponedjeljak</td>
+        <td>11:30</td>
+        <td>13:00</td>
+        <td style="background-color: #fdf1d3;">Scena 4 – Telefonski razgovor</td>
+        <td>Stan (interijer)</td>
+        <td>Marko</td>
+        <td>Softbox rasvjeta, close-up kadar</td>
+      </tr>
+      <tr id="break-row">
+        <td colspan="7" style="background-color: #ffcbe5;">RUČAK / ODMOR (13:00 – 14:00)</td>
+      </tr>
+      <tr class="nocna eksterijer">
+        <td>Ponedjeljak</td>
+        <td>18:00</td>
+        <td>21:00</td>
+        <td style="background-color: #d6eaff;">Scena 6 – Noćna šetnja</td>
+        <td>Most preko rijeke</td>
+        <td>Iva, Luka</td>
+        <td>Reflektori + difuzori, long shot</td>
+      </tr>
+      <tr class="eksterijer dnevna">
+        <td>Utorak</td>
+        <td>09:00</td>
+        <td>12:00</td>
+        <td>Scena 7 – Dijalog u parku</td>
+        <td>Botanički vrt</td>
+        <td>Svi</td>
+        <td>Snimanje s dronom, ambijentalni zvuk</td>
+      </tr>
+      <tr class="interijer nocna">
+        <td>Utorak</td>
+        <td>13:00</td>
+        <td>15:00</td>
+        <td>Scena 8 – Završetak filma</td>
+        <td>Kino dvorana</td>
+        <td>Svi</td>
+        <td>Potpuna tišina na setu</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="legend">
+    <div class="legend-item"><div class="color-box box-dnevna"></div> Dnevna scena</div>
+    <div class="legend-item"><div class="color-box box-nocna"></div> Noćna scena</div>
+    <div class="legend-item"><div class="color-box box-interijer"></div> Interijer</div>
+    <div class="legend-item"><div class="color-box box-eksterijer"></div> Eksterijer</div>
+  </div>
+
+</body>
+</html>

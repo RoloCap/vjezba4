@@ -1,0 +1,108 @@
+ body {
+      font-family: "Roboto Slab", serif;
+      background-color: #f3f5fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      color: #222;
+      font-size: 2em;
+      letter-spacing: 0.5px;
+    }
+
+    table {
+      width: 90%;
+      margin: 40px auto 20px auto;
+      border-collapse: collapse;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      background-color: #fff;
+    }
+
+    thead th {
+      background-color: #222;
+      color: #fff;
+      padding: 14px;
+      font-size: 1.1em;
+      border: 1px solid #333;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    tbody td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+
+    .dnevna {
+      background-color: #e7f2ff;
+      font-weight: 600;
+    }
+
+    .nocna {
+      background-color: #d6eaff;
+      font-weight: 600;
+    }
+
+    .interijer {
+      background-color: #ffcbe5;
+    }
+
+    .eksterijer {
+      background-color: #ffcbe5;
+    }
+
+    #break-row td {
+      background-color: #fff3cd;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    td:hover {
+      background-color: #eef4ff;
+      transition: 0.3s;
+    }
+
+
+    .legend {
+      width: 80%;
+      margin: 20px auto 60px auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.95em;
+      background-color: white;
+      border: 1px solid #ddd;
+      padding: 8px 12px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .color-box {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .box-dnevna { background-color: #e7f2ff; }
+    .box-nocna { background-color: #d6eaff; }
+    .box-interijer { background-color: #fdf1d3; }
+    .box-eksterijer { background-color: #e2f7d3; }
